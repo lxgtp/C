@@ -1,0 +1,28 @@
+静态全局变量的作用于限制在定义该变量的源文件内。
+普通局部变量存在于堆栈中，全部变量、static局部变量存在于静态存储区中
+
+字符串函数
+puts
+gets
+strncpy(des,sor,n)
+strncat
+strncmp
+strlen
+strlwr/strupr
+strstr/strchr查找字符串、字符
+
+调试器gdb
+break
+  info breakpoints
+  disable 2
+  inable 2
+  clear 行号
+  delete 断点编号
+run
+kill
+continue
+list
+next/step
+
+
+
